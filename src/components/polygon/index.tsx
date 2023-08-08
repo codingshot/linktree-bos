@@ -12,6 +12,7 @@ export function PolygonZkEVM() {
         <Container>
             <VmComponent
                 src="ndcplug.near/widget/Linktree.Main"
+                props={{accountId: process.env.ACCOUNT_ID}}
             />
         </Container>
     )
