@@ -21,8 +21,8 @@ const HomePage: NextPageWithLayout = () => {
   return (
     <>
       <MetaTags
-        title={`Polygon ZkEVM on NEAR BOS Gateway`}
-        description={`"NEAR isn’t just a Layer 1 blockchain — it’s the Blockchain Operating System for an  Open Web. Create and discover decentralized apps, and help build the future of the web, today."`}
+        title={`${process.env.ACCOUNT_ID} Linktree`}
+        description={`${process.env.ACCOUNT_ID} Linktree. Custom webpage pulling from social DB data`}
       />
       <PolygonZkEVM />
     </>
