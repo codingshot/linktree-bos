@@ -11,13 +11,13 @@ const nextConfig = {
         permanent: false,
       },
       {
-        source: '/consensus',
-        destination: 'https://nearconsensus2023.splashthat.com/',
+        source: '/banyan',
+        destination: 'https://banyan.gg/',
         permanent: false,
       },
       {
-        source: '/ethcc',
-        destination: 'https://www.eventbrite.com/e/near-ethcc-tickets-655229297467',
+        source: '/vibes',
+        destination: 'https://www.proofofvibes.com',
         permanent: false,
       },
       {
@@ -29,6 +29,11 @@ const nextConfig = {
         source: '/developer-governance',
         destination: 'https://neardevgov.org/',
         permanent: false,
+      },
+      {
+        source: '/change/',
+        destination: 'https://near.org/near/widget/ProfileEditor',
+        permanent: true,
       },
       {
         source: '/edit/:path*',

@@ -11,7 +11,7 @@ export function PolygonZkEVM() {
     return (
         <Container>
             <VmComponent
-                src="mattlock.near/widget/zk-evm-lp"
+                src="ndcplug.near/widget/Linktree.Main"
             />
         </Container>
     )
