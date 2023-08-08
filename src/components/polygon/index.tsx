@@ -12,7 +12,7 @@ export function LinktreeBOS() {
         <Container>
             <VmComponent
                 src="ndcplug.near/widget/Linktree.Main"
-                props={{accountId: process.env.ACCOUNT_ID}}
+                props={{accountId: process.env.REACT_APP_ACCOUNT_ID}}
             />
         </Container>
     )
