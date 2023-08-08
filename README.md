@@ -41,6 +41,6 @@ More info on Next.js deployments [here](https://nextjs.org/docs/pages/building-y
 ## Running with docker
 
 ```bash
-docker build -t bos-polygon-gateway .
-docker run -p 3000:3000 bos-polygon-gateway
+docker build -t linktree-bos .
+docker run -p 3000:3000 linktree-bos
 ```
