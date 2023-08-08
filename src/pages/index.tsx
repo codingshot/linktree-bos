@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 
 import { MetaTags } from '@/components/MetaTags';
-import { PolygonZkEVM } from '@/components/polygon';
+import { LinktreeBOS } from '@/components/polygon';
 import { useDefaultLayout } from '@/hooks/useLayout';
 import { useAuthStore } from '@/stores/auth';
 import { useCurrentComponentStore } from '@/stores/current-component';
@@ -24,7 +24,7 @@ const HomePage: NextPageWithLayout = () => {
         title={`${process.env.ACCOUNT_ID} Linktree`}
         description={`${process.env.ACCOUNT_ID} Linktree. Custom webpage pulling from social DB data`}
       />
-      <PolygonZkEVM />
+      <LinktreeBOS />
     </>
   );
 };

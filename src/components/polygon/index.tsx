@@ -7,7 +7,7 @@ const Container = styled.div`
 `;
 
 
-export function PolygonZkEVM() {
+export function LinktreeBOS() {
     return (
         <Container>
             <VmComponent

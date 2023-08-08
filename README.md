@@ -23,7 +23,7 @@ cp .env.example .env
 pnpm dev
 ```
 
-The entry component is ```PolygonZkEVM``` and it's located at
+The entry component is ```LinktreeBOS``` and it's located at
 ```/src/components/polygon/index.tsx```
 
 It loads the ```ndcplug.near/widget/Linktree.Main``` BOS component. The source can be found [here](https://near.org/near/widget/ComponentDetailsPage?src=ndcplug.near/widget/Linktree.Main&tab=source).
