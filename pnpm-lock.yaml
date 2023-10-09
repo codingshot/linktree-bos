@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@braintree/sanitize-url':
     specifier: 6.0.0
@@ -122,8 +126,8 @@ dependencies:
     specifier: 2.1.3
     version: 2.1.3
   near-social-vm:
-    specifier: github:NearSocial/VM#2.2.3
-    version: github.com/NearSocial/VM/381ddbdc8ef5bde7975bebe8f640c1a5f9d85b94(@popperjs/core@2.11.7)(@types/react@18.2.0)(near-api-js@2.1.3)(prop-types@15.8.1)(react-dom@18.2.0)(react-is@17.0.2)(react@18.2.0)
+    specifier: github:NearSocial/VM
+    version: github.com/NearSocial/VM/c8d62ac14a8409dc2800926a49eafbec828b0b11(@popperjs/core@2.11.7)(@types/react@18.2.0)(near-api-js@2.1.3)(prop-types@15.8.1)(react-dom@18.2.0)(react-is@17.0.2)(react@18.2.0)
   next:
     specifier: 13.3.4
     version: 13.3.4(react-dom@18.2.0)(react@18.2.0)
@@ -7012,6 +7016,10 @@ packages:
     resolution: {integrity: sha512-TwuEnCnxbc3rAvhf/LbG7tJUDzhqXyFnv3dtzLOPgCG/hODL7WFnsbwktkD7yUV0RrreP/l1PALq/YSg6VvjlA==}
     dev: false
 
+  /lodash.clonedeep@4.5.0:
+    resolution: {integrity: sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ==}
+    dev: false
+
   /lodash.debounce@4.0.8:
     resolution: {integrity: sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==}
     dev: false
@@ -7786,6 +7794,7 @@ packages:
   /node-gyp-build-optional-packages@5.0.3:
     resolution: {integrity: sha512-k75jcVzk5wnnc/FMxsf4udAoTEUv2jY3ycfdSd3yWu6Cnd1oee6/CfZJApyscA4FJOmdoixWwiwOyf16RzD5JA==}
     hasBin: true
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -9913,11 +9922,11 @@ packages:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
     dev: false
 
-  github.com/NearSocial/VM/381ddbdc8ef5bde7975bebe8f640c1a5f9d85b94(@popperjs/core@2.11.7)(@types/react@18.2.0)(near-api-js@2.1.3)(prop-types@15.8.1)(react-dom@18.2.0)(react-is@17.0.2)(react@18.2.0):
-    resolution: {tarball: https://codeload.github.com/NearSocial/VM/tar.gz/381ddbdc8ef5bde7975bebe8f640c1a5f9d85b94}
-    id: github.com/NearSocial/VM/381ddbdc8ef5bde7975bebe8f640c1a5f9d85b94
+  github.com/NearSocial/VM/c8d62ac14a8409dc2800926a49eafbec828b0b11(@popperjs/core@2.11.7)(@types/react@18.2.0)(near-api-js@2.1.3)(prop-types@15.8.1)(react-dom@18.2.0)(react-is@17.0.2)(react@18.2.0):
+    resolution: {tarball: https://codeload.github.com/NearSocial/VM/tar.gz/c8d62ac14a8409dc2800926a49eafbec828b0b11}
+    id: github.com/NearSocial/VM/c8d62ac14a8409dc2800926a49eafbec828b0b11
     name: near-social-vm
-    version: 2.2.3
+    version: 2.4.2
     peerDependencies:
       near-api-js: 2.1.3
       react: ^18.2.0
@@ -9964,7 +9973,7 @@ packages:
       idb: 7.1.1
       iframe-resizer-react: 1.1.0(prop-types@15.8.1)(react-dom@18.2.0)(react@18.2.0)
       local-storage: 2.0.0
-      lodash: 4.17.21
+      lodash.clonedeep: 4.5.0
       mdast-util-find-and-replace: 2.2.2
       nanoid: 4.0.2
       near-api-js: 2.1.3
