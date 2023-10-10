@@ -4,6 +4,10 @@ Easily deploy a linktree of your profile on the SocialDB (bos) - updates when yo
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fcodingshot%2Flinktree-bos&build-command=pnpm%20run%20build&env=NEXT_PUBLIC_NETWORK_ID,NEXT_PUBLIC_HOSTNAME,NEXT_PUBLIC_ACCOUNT_ID,NEXT_PUBLIC_THEME&envDescription=mainnet-near.org-themecanbeanything&envLink=https%3A%2F%2Fgithub.com%2Fcodingshot%2Flinktree-bos%2Fblob%2Fmain%2F.env.example) 
 
 
+Video Tutorial
+
+https://www.youtube.com/watch?v=a8ULNp1q2uQ&t=1s
+
 To setup a custom domain on vercel
 
 https://vercel.com/docs/concepts/projects/domains/add-a-domain
