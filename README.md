@@ -8,6 +8,18 @@ To setup a custom domain on vercel
 
 https://vercel.com/docs/concepts/projects/domains/add-a-domain
 
+# Available Themes
+- default
+- dark
+- gold
+- blossom
+- vibrant
+- aqua
+- neon
+- vintage
+- eclectic
+
+
 ## Setup & Development
 
 Initialize repo:
